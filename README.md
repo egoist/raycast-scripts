@@ -1,6 +1,6 @@
 # raycast scripts
 
-My personal Raycast scripts.
+My personal [Raycast](https://www.raycast.com/) scripts.
 
 You need to have [Deno](https://deno.land/) installed on your machine and have the `deno` command available in `$PATH`.
 
