@@ -2,7 +2,15 @@
 
 My personal [Raycast](https://www.raycast.com/) scripts.
 
-You need to have [Deno](https://deno.land/) installed on your machine and have the `deno` command available in `$PATH`.
+You need to have [Deno](https://deno.land/) installed on your machine and have the `deno` command available in system `$PATH` (for [non-login shell](https://unix.stackexchange.com/questions/38175/difference-between-login-shell-and-non-login-shell)), typically you need to run following command to create a symbolic link:
+
+```sh
+# For bash/zsh shell
+sudo ln $(which deno) /usr/local/bin/deno
+
+# For fish shell
+sudo ln (which deno) /usr/local/bin/deno
+```
 
 Then clone this repo to your local machine and use it as the script directory in Raycast:
 
