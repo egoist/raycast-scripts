@@ -20,6 +20,7 @@ Then clone this repo to your local machine and use it as the script directory in
 
 - [npm package](./npm-package.ts): Get the description of an npm package
 - [Crypto fear & Greed Index](./crypto-fear-greed-index.ts): Get the [Crypto fear & Greed Index](https://alternative.me/crypto/fear-and-greed-index/)
+- [Title](./title.ts): Capitalize your title accroding to [The Chicago Manual of Style](http://www.chicagomanualofstyle.org/).
 
 ## License
 
